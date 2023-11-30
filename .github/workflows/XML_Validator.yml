@@ -1,0 +1,22 @@
+name: Push to TFED ECR Repository
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate XML
+        uses: anyone-developer/anyone-validate-xml@0.9.2
+        with:
+          file-extension: 'xml'  # optional, default is xml
+          ignore-files: ''       # optional, default is empty
+          ignore-directories: '' # optional, default is empty
+          read-path: ''          # default is empty
