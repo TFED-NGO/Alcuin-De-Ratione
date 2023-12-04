@@ -1,0 +1,20 @@
+name: Validate XML Code for Errors
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate XML
+        uses: ChristophWurst/xmllint-action@v1.2.1
+        with:
+          xml-file: edition.xml
+          xml-schema-file: TEI/postprocess.xsl
