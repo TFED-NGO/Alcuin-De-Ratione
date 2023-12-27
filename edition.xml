@@ -18,6 +18,8 @@
             <respStmt> <!-- the responsibility statement allows specification of jobs and those who did them -->
                <resp>Project Director</resp>
                <name>Dr. Theodore H. Leinbaugh</name>
+            </respStmt>
+            <respStmt>
 							 <resp>Project Manager</resp>
 							 <name>Hunter Corb</name><!-- Other instructors go here -->
             </respStmt>
@@ -28,16 +30,24 @@
                   <name>Eve Svoboda</name>
                   <name>Emma Hauck</name>
                   <name>Justin Evangelisto</name>
+            </respStmt>
+            <respStmt>
                <resp>Manuscription description:</resp>
                		<name>Dr. Theodore H. Leinbaugh</name>
 							 		<name>Hunter Corb</name>
+            </respStmt>
+            <respStmt>
 							 <resp>Manuscript transcription:</resp>
 							 		<name>Dr. Theodore H. Leinbaugh</name>
                   <name>Sarah Bulger</name>
                   <name>Eve Svoboda</name>
                   <name>Aidan Canner</name>
+            </respStmt>
+            <respStmt>
 							 	<resp>General overview and critical apparatus:</resp>
 		 							<name>Dr. Theodore H. Leinbaugh</name>
+            </respStmt>
+            <respStmt>
 								<resp>Old English Glossary compiled by:</resp>
 									<name>Theodore H. Leinbaugh</name>
 									<name>Hunter Corb</name>
