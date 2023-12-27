@@ -6388,8 +6388,8 @@ mare
 </choice>
 terras
 <choice>
-  <orig> ce<macron>lumq</macron> </orig>
-  <corr> ce<macron>lum</macron> qua </corr>
+  <orig> ce lumq<macron/> </orig>
+  <corr> ce lum<macron/> qua </corr>
   <reg> caelum qua <reg/>
 </choice>
 pervolat ___ altum.
@@ -6421,14 +6421,14 @@ In se digna
   <reg> deum, </reg>
 </choice>
 <choice>
-  <orig> se<macron>p</macron> </orig>
+  <orig> sep<macron/> </orig>
   <reg> semper </reg>
 </choice>
 habere suum.
 <lb n="301" />
 Si bona, si sapiens
 <choice>
-  <orig> <language ident="grc">xp<macron>i</macron> </language></orig>
+  <orig> <language ident="grc">xpi<macron/> </language></orig>
   <reg> Christi </reg>
 </choice>
 si se ornat amore.
