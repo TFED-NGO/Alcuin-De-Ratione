@@ -4,6 +4,12 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches:
+      - '*'         # matches every branch that doesn't contain a '/'
+      - '*/*'       # matches every branch containing a single '/'
+      - '**'        # matches every branch
+      - '!main'   # excludes main
 
 jobs:
   validate-xml:
@@ -17,4 +23,4 @@ jobs:
         uses: ChristophWurst/xmllint-action@v1.2.1
         with:
           xml-file: edition.xml
-          xml-schema-file: TEI/postprocess.xsl
+          xml-schema-file: ./TEI/tei_all.w3c
