@@ -178,7 +178,7 @@
 </choice>
 in
 <choice>
-  <orig> <lang="GK">xpi </orig>
+  <orig> <language ident="grc">xpi </language></orig>
   <reg> Christi </reg>
 </choice>
 caritate sorori
@@ -4558,7 +4558,7 @@ losophi vana finxerunt,
 </choice>
 plurimas
 <choice>
-  <orig> <lang="GK">xpiana </orig>
+  <orig> <language ident="grc">xpiana </language></orig>
   <reg> Christiani </reg>
 </choice>
 doctores opiniones inde
@@ -4956,7 +4956,7 @@ mediatoris
   <reg> ihesu </reg>
 </choice>
 <choice>
-  <orig> <lang="GK">xpi. </orig>
+  <orig> <language ident="grc">xpi. </language></orig>
   <reg> Christi. </reg>
 </choice>
 Qui
@@ -6428,7 +6428,7 @@ habere suum.
 <lb n="301" />
 Si bona, si sapiens
 <choice>
-  <orig> <lang="GK">xp<macron/>i </orig>
+  <orig> <language ident="grc">xp<macron>i<macron/> </language></orig>
   <reg> Christi </reg>
 </choice>
 si se ornat amore.
