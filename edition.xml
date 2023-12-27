@@ -167,6 +167,8 @@
       <div type="sermon">
         <head style="text-align: left; font-variant: smallcaps">
           Incipit epta albini ad Eulaliam uirginem
+        </head>
+        <!-- FROM JACKSON MEADE: I closed this header tag, which was just floating. Is this the proper place for it? -->
       <ab>
         <lb n="1" />
 
