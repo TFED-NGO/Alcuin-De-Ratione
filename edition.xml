@@ -169,8 +169,9 @@
           Incipit epta albini ad Eulaliam uirginem
       <ab>
         <lb n="1" />
+      </ab>
 
-
+<!-- From Jackson Meade: There was a suspicious 4-line break here, and the ab tag above was not closed throughout the rest of the doc. I closed it here, but what was intended? -->
 
 <choice>
   <orig> <hi style="font-variant: smallcaps" rend="2lines">K</hi>arissime </orig>
@@ -6390,7 +6391,7 @@ terras
 <choice>
   <orig> ce lumq<macron/> </orig>
   <corr> ce lum<macron/> qua </corr>
-  <reg> caelum qua <reg/>
+  <reg> caelum qua </reg>
 </choice>
 pervolat ___ altum.
 <lb n="296" />
