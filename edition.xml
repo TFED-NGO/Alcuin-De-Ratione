@@ -6286,7 +6286,7 @@ Qui regit imperio cuncta creata suo.
 Iusserat hic
 <choice>
   <orig> ominem </orig>
-  <corr> <add>h<add/>ominem </corr>
+  <corr> <add>h</add>ominem </corr>
 </choice>
 rebus dominare sub astris.
 <lb n="288" />
@@ -6314,7 +6314,7 @@ inter
 viventia
 <choice>
   <orig> nocere </orig>
-  <corr> no<add>s<add/>cere </corr>
+  <corr> no<add>s</add>cere </corr>
 </choice>
 mundi.
 <lb n="290" />
@@ -6329,7 +6329,7 @@ mundi.
 mentis in
 <choice>
   <orig> arc </orig>
-  <corr> arc<add>e<add/> </corr>
+  <corr> arc<add>e</add> </corr>
 </choice>
 suum.
 <lb n="291" />
@@ -6368,7 +6368,7 @@ Nobilis exinde est
   <orig> anime<macron/> </orig>
   <reg> animae </reg>
 </choice>
-natura sagacis <add>origo<add/>
+natura sagacis <add>origo</add>
 <pb n="56v"/>
 <lb n="294" />
 <choice>
