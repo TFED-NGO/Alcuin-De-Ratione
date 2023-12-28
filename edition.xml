@@ -165,7 +165,7 @@
 		<revisionDesc>
 			<list>
 				<item>
-					<date when=""></date>
+					<date when="2023-12-27"></date>
 				</item>
 			</list>
 		</revisionDesc>
@@ -173,7 +173,7 @@
 
 <text>
    <body>
-     <pb n="52r" facs="" />
+     <pb n="52r" /><!--facs="" />-->
       <div type="sermon">
         <head style="text-align: left; font-variant: smallcaps">
           Incipit epta albini ad Eulaliam uirginem
@@ -189,7 +189,7 @@
 </choice>
 in
 <choice>
-  <orig> <language ident="grc">xpi </language></orig>
+  <orig> <foreign xml:lang="grc">xpi </foreign></orig>
   <reg> Christi </reg>
 </choice>
 caritate sorori
@@ -4569,7 +4569,7 @@ losophi vana finxerunt,
 </choice>
 plurimas
 <choice>
-  <orig> <language ident="grc">xpiana </language></orig>
+  <orig> <foreign xml:lang="grc">xpiana </foreign></orig>
   <reg> Christiani </reg>
 </choice>
 doctores opiniones inde
@@ -4967,7 +4967,7 @@ mediatoris
   <reg> ihesu </reg>
 </choice>
 <choice>
-  <orig> <language ident="grc">xpi. </language></orig>
+  <orig> <foreign xml:lang="grc">xpi. </foreign></orig>
   <reg> Christi. </reg>
 </choice>
 Qui
@@ -6438,7 +6438,7 @@ habere suum.
 <lb n="301" />
 Si bona, si sapiens
 <choice>
-  <orig> <language ident="grc">xpi<macron/> </language></orig>
+  <orig> <foreign xml:lang="grc">xpi<macron/> </foreign></orig>
   <reg> Christi </reg>
 </choice>
 si se ornat amore.
