@@ -17,11 +17,6 @@
 				<funder>Transatlantic Forum for Education and Diplomacy</funder>
 				<funder>Joan Gillings</funder>
 				<respStmt>
-					<!-- the responsibility statement allows specification of jobs and those who did them -->
-					<resp>Project Director</resp>
-					<name>Dr. Theodore H. Leinbaugh</name>
-				</respStmt>
-				<respStmt>
 					<resp>Project Manager</resp>
 					<name>Hunter Corb</name>
 					<!-- Other instructors go here -->
