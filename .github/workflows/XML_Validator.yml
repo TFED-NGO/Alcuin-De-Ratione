@@ -11,6 +11,7 @@ on:
       - '**'        # matches every branch
       - '!main'   # excludes main
 
+
 jobs:
   validate-xml:
     runs-on: ubuntu-latest
