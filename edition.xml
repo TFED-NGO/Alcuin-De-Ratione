@@ -3,8 +3,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI
 	xmlns="http://www.tei-c.org/ns/1.0">
-	<charDecl>
-	</charDecl>
 	<teiHeader xml:lang="en">
 		<!-- bibliographic, technical, cataloguing information, etc. NOT the main text, but essential for a valid TEI document -->
 		<fileDesc>
@@ -153,6 +151,8 @@
          as they appear in the MS.</p>
 				<!-- include all other editorial declarations and decisions here -->
 			</editorialDecl>
+			<charDecl>
+			</charDecl>
 		</encodingDesc>
 		<revisionDesc>
 			<list>

@@ -3,86 +3,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI
 	xmlns="http://www.tei-c.org/ns/1.0">
-	<charDecl>
-    <char xml:id="p_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="P CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">p&#x00AF;</mapping>
-    </char>
-    <char xml:id="t_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="T CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">t&#x00AF;</mapping>
-    </char>
-    <char xml:id="b_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="B CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">b&#x00AF;</mapping>
-    </char>
-    <char xml:id="q_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="Q CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">q&#x00AF;</mapping>
-    </char>
-    <char xml:id="v_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="V CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">v&#x00AF;</mapping>
-    </char>
-    <char xml:id="m_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="M CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">m&#x00AF;</mapping>
-    </char>
-    <char xml:id="n_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="N CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">n&#x00AF;</mapping>
-    </char>
-    <char xml:id="s_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="S CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">s&#x00AF;</mapping>
-    </char>
-    <char xml:id="d_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="D CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">d&#x00AF;</mapping>
-    </char>
-    <char xml:id="r_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="R CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">r&#x00AF;</mapping>
-    </char>
-    <char xml:id="c_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="C CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">c&#x00AF;</mapping>
-    </char>
-    <char xml:id="l_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="L CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">l&#x00AF;</mapping>
-    </char>
-    <char xml:id="h_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="H CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">h&#x00AF;</mapping>
-    </char>
-	</charDecl>
 	<teiHeader xml:lang="en">
 		<!-- bibliographic, technical, cataloguing information, etc. NOT the main text, but essential for a valid TEI document -->
 		<fileDesc>
@@ -231,6 +151,86 @@
          as they appear in the MS.</p>
 				<!-- include all other editorial declarations and decisions here -->
 			</editorialDecl>
+			<charDecl>
+    <char xml:id="p_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="P CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">p&#x00AF;</mapping>
+    </char>
+    <char xml:id="t_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="T CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">t&#x00AF;</mapping>
+    </char>
+    <char xml:id="b_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="B CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">b&#x00AF;</mapping>
+    </char>
+    <char xml:id="q_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="Q CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">q&#x00AF;</mapping>
+    </char>
+    <char xml:id="v_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="V CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">v&#x00AF;</mapping>
+    </char>
+    <char xml:id="m_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="M CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">m&#x00AF;</mapping>
+    </char>
+    <char xml:id="n_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="N CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">n&#x00AF;</mapping>
+    </char>
+    <char xml:id="s_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="S CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">s&#x00AF;</mapping>
+    </char>
+    <char xml:id="d_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="D CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">d&#x00AF;</mapping>
+    </char>
+    <char xml:id="r_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="R CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">r&#x00AF;</mapping>
+    </char>
+    <char xml:id="c_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="C CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">c&#x00AF;</mapping>
+    </char>
+    <char xml:id="l_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="L CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">l&#x00AF;</mapping>
+    </char>
+    <char xml:id="h_macron">
+        <unicodeProp name="Canonical_Combining_Class" value="230"/>
+        <localProp name="name"
+            value="H CHARACTER WITH A MACRON OVER IT"/>
+        <mapping type="standard">h&#x00AF;</mapping>
+    </char>
+			</charDecl>
 		</encodingDesc>
 		<revisionDesc>
 			<list>
