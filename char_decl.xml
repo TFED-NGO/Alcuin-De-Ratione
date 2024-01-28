@@ -1,8 +1,0 @@
-<charDecl>
-    <char xml:id="b_macron">
-        <unicodeProp name="Canonical_Combining_Class" value="230"/>
-        <localProp name="name"
-            value="B CHARACTER WITH A MACRON OVER IT"/>
-        <mapping type="standard">b&#x00AF;</mapping>
-    </char>
-</charDecl>
