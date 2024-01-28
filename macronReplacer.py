@@ -1,15 +1,39 @@
+charDecl = ""
+
 replacer = {
-    'e' : ['E1', 'E2'],
-    'a' : ['A1', 'A2'],
-    's' : ['S1', 'S2']
+    'e': 'ē',
+    'a': 'ā',
+    'i': 'ī',
+    'o': 'ō',
+    'u': 'ū',
+    'E': 'Ē',
+    'A': 'Ā',
+    'I': 'Ī',
+    'O': 'Ō',
+    'U': 'Ū',
 }
 
+def buildGRef(text):
+    return f'<g ref="#{text}_macron"/>'
+
+def declareCharacter(char):
+    global charDecl
+    global replacer
+    replacer[char] = buildGRef(char)
+    charDecl += f'\n    <char xml:id="{char}_macron">\n        <unicodeProp name="Canonical_Combining_Class" value="230"/>\n        <localProp name="name"\n            value="{str.upper(char)} CHARACTER WITH A MACRON OVER IT"/>\n        <mapping type="standard">{char}&#x00AF;</mapping>\n    </char>'
+
 def replaceMacrons(text):
-    return f'<g ref=\"#{replacer[text][0]}">{replacer[text][1]}</g>'
+    global charDecl
+    global replacer
+    if (text not in replacer):
+        declareCharacter(text)
+    return f'{replacer[text]}'
 
 def run():
+    global charDecl
+    global replacer
     original = open('edition.xml', mode='r', encoding='utf-8', errors='xmlcharrefreplace')
-    output = open('glyphs_in_need_of_definition.txt', mode='w', encoding='utf-8', errors='xmlcharrefreplace')
+    output = open('edition_fixed.xml', mode='w', encoding='utf-8', errors='xmlcharrefreplace')
 
     text = original.read()
 
@@ -24,10 +48,12 @@ def run():
             e = replaceMacrons(char_of_interest)
         except KeyError:
             e = f"[{char_of_interest}]"
-        text = text[:i] + f'[{text[i]}]' + text[macron_index + 9:]
+        text = text[:i] + e + text[macron_index + 9:]
         macron_index = text.find("<macron/>")
-        preview = text[i-10:i + 15].replace("\n", "")
-        output.write(f'{char_of_interest} in context: "...{preview}..."\n')
+    char_decl_index = text.find("<charDecl>")
+    text = text[:char_decl_index + 10] + charDecl + text[char_decl_index + 10:]
+    
+    output.write(text)
 
     original.close()
     output.close()
