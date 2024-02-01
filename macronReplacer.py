@@ -1,3 +1,6 @@
+input_file = 'edition.xml'
+output_file = 'edition_fixed.xml'
+
 charDecl = ""
 
 replacer = {
@@ -32,8 +35,8 @@ def replaceMacrons(text):
 def run():
     global charDecl
     global replacer
-    original = open('edition.xml', mode='r', encoding='utf-8', errors='xmlcharrefreplace')
-    output = open('edition_fixed.xml', mode='w', encoding='utf-8', errors='xmlcharrefreplace')
+    original = open(input_file, mode='r', encoding='utf-8', errors='xmlcharrefreplace')
+    output = open(output_file, mode='w', encoding='utf-8', errors='xmlcharrefreplace')
 
     text = original.read()
 
