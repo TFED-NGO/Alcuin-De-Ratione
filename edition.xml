@@ -33,6 +33,7 @@
 					<name>Eve Svoboda</name>
 					<name>Emma Hauck</name>
 					<name>Justin Evangelisto</name>
+					<name>Jackson Meade</name>
 				</respStmt>
 				<respStmt>
 					<resp>Manuscription description:</resp>
@@ -55,6 +56,10 @@
 					<name>Theodore H. Leinbaugh</name>
 					<name>Hunter Corb</name>
 					<name>Jacob Beerli</name>
+				</respStmt>
+				<respStmt>
+					<resp>CI/CD, Publication, and Software Development:</resp>
+					<name>Jackson Meade</name>
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
