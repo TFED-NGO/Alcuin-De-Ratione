@@ -9,7 +9,7 @@
 			<!-- a general heading -->
 			<titleStmt>
 				<title>De Ratione Animae</title>
-				<title>The Aelfric Scriptorium Project-12</title>
+				<title>The Aelfric Scriptorium Project</title>
 				<!-- this is the title of the digital document, not the original text -->
 				<principal>Dr. Theodore H. Leinbaugh</principal>
 				<principal>Hunter Corb</principal>
@@ -235,18 +235,19 @@
             value="H CHARACTER WITH A MACRON OVER IT"/>
         <mapping type="standard">h&#x00AF;</mapping>
     </char>
+			</charDecl>
 		</encodingDesc>
 		<revisionDesc>
 			<list>
 				<item>
-					<date when="2026-02-20"></date>
+					<date when="2023-12-27"></date>
 				</item>
 			</list>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-		<pb n="86r" facs="86r.jpg" />
+			<pb n="52r" />
 			<!--facs="" />-->
 			<div type="sermon">
 				<head style="text-align: left; font-variant: smallcaps">Incipit epta albini ad Eulaliam uirginem</head>
